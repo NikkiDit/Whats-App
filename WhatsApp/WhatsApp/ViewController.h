@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface ViewController : UIViewController <UITextFieldDelegate, UITableViewDelegate , UITableViewDataSource, UINavigationBarDelegate>
+@interface ViewController : UIViewController <UITextFieldDelegate, UITableViewDelegate , UITableViewDataSource, UINavigationBarDelegate, UIScrollViewDelegate>
 
 @property (nonatomic, strong) UIView *messageView;
 @end
