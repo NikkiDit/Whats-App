@@ -357,6 +357,8 @@
     
     
     [lastTimeLabel sizeToFit ];
+    
+    
     [self.view addSubview:lastTimeLabel];
 }
 
